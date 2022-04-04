@@ -1,0 +1,108 @@
+body {
+    background-color: #000;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+ img {
+     width: 100%;
+     height: 1200px;
+ } 
+ 
+ 
+
+:root {
+    --theme-color: #0a0a23;
+    --yellow-gold: #ffbf00;
+    --gray-00: #fff;
+    --gray-05: #f5f6f7;
+    --gray-10: #dfdfe2;
+    --gray-15: #d0d0d5;
+    --gray-45: #858591;
+    --gray-75: #3b3b4f;
+    --gray-80: #2a2a40;
+    --gray-85: #1b1b32;
+    --gray-90: #0a0a23;
+    --purple-light: #dbb8ff;
+    --purple-dark: #5a01a7;
+    --yellow-light: #ffc300;
+    --yellow-dark: #4d3800;
+    --blue-light: #99c9ff;
+    --blue-light-translucent: rgba(153,201,255,.3);
+    --blue-dark: #002ead;
+    --blue-dark-translucent: rgba(0,46,173,.3);
+    --green-light: #acd157;
+    --blue-mid: #198eee;
+    --purple-mid: #9400d3;
+    --green-dark: #00471b;
+    --red-light: #ffadad;
+    --red-dark: #850000;
+    --love-light: #f8577c;
+    --love-dark: #f82153;
+    --editor-background-light: #fffffe;
+    --editor-background-dark: #2a2b40;
+}
+
+
+    a {
+        color: #fff;
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+        background-color: var(--gray-15);
+      
+    }
+
+    #yoga {
+        display: block;
+        padding: 0 30px;
+        float: left;
+        font-size: 20px;
+        line-height: 60px;
+    }
+
+    nav:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    nav ul {
+        float: right;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        position: relative;
+    }
+
+    nav ul li  {
+        margin: 0px;
+        display: inline-block;
+        background-color: var(--gray-15);
+    }
+
+    nav a {
+        display: block;
+        padding: 17px 20px;
+        color: #fff;
+        font-size: 17pxback;
+        text-decoration: none;
+        transform: scale(1.2);
+    }
+
+    
+    nav a:hover {
+        background-color: #000;
+    }
+
+    li a:hover {
+        background-color: #000;
+    }
+
+  
